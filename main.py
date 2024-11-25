@@ -42,11 +42,9 @@ Write a Python function `calculate_average` that:
 1. Takes a list of integers as input.
 2. Returns the average of the integers, or 0 if the list is empty.
 
-Additionally, test and verify that calculate_average works with a single test of 4 test cases and be sure to print the result of the tests, 
-finally print out the source code for calculate_average in a code block.
+Additionally, write test cases to verify the function works as expected. 
+Do not use assertions to validate the results with example inputs and outputs.
 """,
-    summary_method="last_msg",
+    summary_method="reflection_with_llm",
 )
 
-# Output the assistant's response
-# print(chat_res)
